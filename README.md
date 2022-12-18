@@ -1,1 +1,1 @@
-shell script examples
+this is good starting
