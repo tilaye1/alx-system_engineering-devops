@@ -9,7 +9,7 @@ ADD_HEADER="\\\tadd_header X-Served-By $HOSTNAME;"
 
 sudo apt-get update
 sudo apt-get -y install nginx
-sudo service nginx start
+sudo systemctl start nginx.service
 
 echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
 
@@ -23,4 +23,4 @@ sudo sed -i "s@$PATTERN@$ADD404_NOTFOUND@" /etc/nginx/sites-available/default
 # Header is updated (add_header to file)
 sudo sed -i "27i $ADD_HEADER" /etc/nginx/sites-available/default
 
-sudo service nginx restart
+sudo systemctl restart nginx.service
