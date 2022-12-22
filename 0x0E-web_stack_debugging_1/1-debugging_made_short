@@ -5,6 +5,5 @@ equirement: Nginx must be running, and listening on port 80 of all the server’
 #rm /etc/nginx/sites-enabled/default
 #ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 #sudo service nginx restart
-
-sudo sed -i "s/sites-enabled/sites-available/" /etc/nginx/nginx.conf
-sudo systemctl restart nginx.service
+cp  /etc/nginx/sites-available/defualt  /etc/nginx/sites-enabled/default
+sudo systemctl stop nginx.service
