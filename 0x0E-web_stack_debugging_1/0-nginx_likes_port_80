@@ -4,6 +4,6 @@
 #Solution: https://stackoverflow.com/questions/16021481/nginx-not-listening-to-port-80
 
 cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-sudo systemctl start nginx.service
+sudo service nginx start
 
 
