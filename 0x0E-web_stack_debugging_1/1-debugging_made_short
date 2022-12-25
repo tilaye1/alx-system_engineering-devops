@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-equirement: Nginx must be running, and listening on port 80 of all the server’s active IPv4 IPs
+#equirement: Nginx must be running, and listening on port 80 of all the server’s active IPv4 IPs
 #Bug: sudo nginx status returns 'not running'; netstat -lpn does not show port 80
 #Solution: https://stackoverflow.com/questions/16021481/nginx-not-listening-to-port-80
 #at last but not least it must say : nginx is not running
