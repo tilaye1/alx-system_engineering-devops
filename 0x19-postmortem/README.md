@@ -4,7 +4,7 @@
 
 #### Issue Summary
 
-On September 11th, 2018 from 9:39 AM to 9:49 AM UTC, the company's website was down for ten minutes. 100% of users experienced a 500 internal server error caused by a mispelled filename in a configuration file.
+On Feburary 4th, 2023 from 9:39 AM to 9:49 AM UTC, the company's website was down for ten minutes. 100% of users experienced a 500 internal server error caused by a mispelled filename in a configuration file.
 
 #### Timeline
 
